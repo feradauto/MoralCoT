@@ -4,9 +4,9 @@ This is the repo for: "[When to Make Exceptions: Exploring Language Models as Ac
 
 The dataset is in /input_data/complete_file.csv
 
-**/models** Contains the scripts to get the model predictions using GPT3 and baseline predictions
-**/extra_analyses** Scripts with extra analyses. E.g. Domain features evaluation, price estimation, dogmatic score.
-**/input_data** Contains the dataset ("complete_file.csv") and costs of items estimated by humans
+**/models** Contains the scripts to get the model predictions using GPT3 and baseline predictions  
+**/extra_analyses** Scripts with extra analyses. E.g. Domain features evaluation, price estimation, dogmatic score.  
+**/input_data** Contains the dataset ("complete_file.csv") and costs of items estimated by humans  
 
 
 ### Instructions to run the models
