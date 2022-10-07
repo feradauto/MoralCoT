@@ -20,9 +20,9 @@ The dataset can be found [here](https://github.com/feradauto/MoralCoT/blob/main/
 5. `export OPENAI_API_KEY=your_gpt3_key`  necessary to query GPT3
 
 ### Generating predictions
-To generate the predictions for all the models run:
+To generate the predictions for all the models including paraphrases run:
 ```bash
-`./main_models/paraphrases/run_models_ensemble.sh` to generate the predictions with all the paraphrases
+./main_models/paraphrases/run_models_ensemble.sh
 ```
 
 MoralCoT uses OPENAI API
