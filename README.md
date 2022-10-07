@@ -2,7 +2,7 @@
 
 This is the repo for: "[When to Make Exceptions: Exploring Language Models as Accounts of Human Moral Judgment](https://arxiv.org/abs/2210.01478)" 2022 by Zhijing Jin*, Sydney Levine*, Fernando Gonzalez*, Ojasv Kamal, Maarten Sap, Mrinmaya Sachan, Rada Mihalcea, Josh Tenenbaum, Bernhard Schoelkopf
 
-The dataset can be found [here] (https://github.com/feradauto/MoralCoT/blob/main/input_data/complete_file.csv)
+The dataset can be found [here](https://github.com/feradauto/MoralCoT/blob/main/input_data/complete_file.csv)
 
 **models** Contains the scripts to get the model predictions using GPT3 and baseline predictions  
 **extra_analyses** Scripts with extra analyses. E.g. Domain features evaluation, price estimation, dogmatic score.  
