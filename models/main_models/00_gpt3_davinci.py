@@ -47,7 +47,7 @@ def get_prediction(filename,prompt_number):
         dict_uniques={}
         elements=dict(completion['choices'][0]["logprobs"]['top_logprobs'][0])
         for e in elements:
-            e_modified=e.lower().lstrip(' ')
+            e_modified=e.lower().replace('\n','').lstrip(' ')
             if e_modified in dict_uniques:
                 dict_uniques[e_modified]=dict_uniques[e_modified]+np.exp(elements[e])
             else:
