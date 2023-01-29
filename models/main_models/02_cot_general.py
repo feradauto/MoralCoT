@@ -74,7 +74,6 @@ def get_prediction(filename,prompt_number):
         df.loc[i,'sixth_response']=sixth_response.choices[0].text
 
 
-        #print("--------------------")
         ask_again=input_6+sixth_response.choices[0].text+"\n"+final_q
         final_response = openai.Completion.create(engine="text-davinci-002", prompt=ask_again,temperature=0,max_tokens=6,logprobs=10)
         df.loc[i,'GPT3_final_response']=final_response.choices[0].text
