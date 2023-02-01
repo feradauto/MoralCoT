@@ -1,0 +1,337 @@
+context,condition,study,human.response,feature1,feature2,feature3,feature1b,feature1c,scenario,statement,feat2_cat,feat3_cat,feat1b_cat,feat1c_cat,first_response,second_response,third_response,fourth_response,predf2,predf3,predf1b,predf1c,gpt_feature2,gpt_feature3,gpt_feature1b,gpt_feature1c,feat2_rand,feat2_rands,feat3_rand,feat3_rands,feat1b_rand,feat1b_rands,feat1c_rand,feat1c_rands
+not.fav.flavor,snack2,lines,0.25,1.0,3.16666666666667,1.91666666666667,1.0,2.09090909090909,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy didn’t get his favorite flavor. He wants to ask the teacher for a different flavor of chips. He goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy didn’t get his favorite flavor. He wants to ask the teacher for a different flavor of chips. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,1. appropriate,3. the same,"
+
+The kid in the front of the line will have to wait a little longer if this kid cuts.","
+If she doesn't cut in line, she'll be fine.","
+This person has waited a little less than they should have.","
+This kid's snack is much worse than the other kids' snacks.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,-2,-3,1,2. a little longer,1,2. a little bad,2,3. haven’t waited,1,2. worse
+jellybeans,snack2,lines,0.318181818181818,1.0,3.39583333333333,2.16666666666667,1.0,0.181818181818182,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy got a bag of jelly beans that only has worst flavor. He wants to ask the teacher for a different bag of jelly beans. He goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy got a bag of jelly beans that only has worst flavor. He wants to ask the teacher for a different bag of jelly beans. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,1. appropriate,2. worse,"
+
+The kid in the front of the line will have to wait a little longer if this kid cuts.","
+If she doesn't cut in line, she'll be fine.","
+This person has waited a little less than they should have.","
+This kid got much worse jelly beans than the other kids.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,-2,-3,1,2. a little longer,0,2. a little bad,2,3. haven’t waited,2,3. the same
+hungry,snack2,lines,0.295454545454545,1.0,3.39583333333333,2.95833333333333,-3.0,0.0,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl forgot to eat breakfast and is really really hungry. She goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl forgot to eat breakfast and is really really hungry. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,3. haven’t waited,2. worse,"
+
+The kid in the front of the line will have to wait a little longer if this kid cuts.","
+If she doesn't cut in line, she'll be fine.","
+This person has waited a little less than they should have.","
+This kid got much worse than the other kids.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,-2,-3,0,3. a lot longer,2,3. really bad,1,2. less,2,3. the same
+hungry,adult,lines,0.270833333333333,1.0,3.5625,3.45833333333333,0.0,0.0,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. A girl forgot to eat breakfast and is really really hungry. She goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. A girl forgot to eat breakfast and is really really hungry. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,2. a little bad,3. haven’t waited,2. worse,"
+
+The kid in the front of the line will have to wait a little longer if this kid cuts.","
+A little bad for her.","
+This person has waited a little less than they should have.","
+The same.",2. a little longer,2. a little bad,2. less,3. the same,4,4,-2,3,1,2. a little longer,0,2. a little bad,1,2. less,2,3. the same
+headache,snack2,lines,0.909090909090909,0.0,3.52083333333333,4.89583333333333,,,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl has a really bad headache and only wants to ask if she can go to the nurse. She goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl has a really bad headache and only wants to ask if she can go to the nurse. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,2. a little bad,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got nothing, so it is much worse.",1. same amount of time,1. she'll be fine,2. less,1. much worse,1,1,,,2,1. same amount of time,0,1. she'll be fine,0,1. appropriate,1,2. worse
+half.cookies,snack2,lines,0.431818181818182,1.0,3.39583333333333,2.35416666666667,1.0,0.090909090909091,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl already waited in line and got her snack, but half of the cookies were crushed. So, she has three cookies instead of six. She wants to ask for a different bag of cookies. She goes to the front of the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl already waited in line and got her snack, but half of the cookies were crushed. So, she has three cookies instead of six. She wants to ask for a different bag of cookies. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,1. appropriate,2. worse,"
+
+The kid in the front of the line will have to wait a little longer.","
+A little bad for her.","
+This person has waited a little less than they should have.","
+This kid's snack is much worse than the other kids' snacks.",2. a little longer,2. a little bad,2. less,1. much worse,4,4,-2,-3,1,2. a little longer,2,2. a little bad,2,3. haven’t waited,0,1. much worse
+glitter,snack2,lines,0.522727272727273,0.0,4.33333333333333,1.70833333333333,,,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. Someone spilled glitter all over the floor. This boy wants the teacher to help sweep up the glitter. He goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. Someone spilled glitter all over the floor. This boy wants the teacher to help sweep up the glitter. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait a little longer.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got much worse than the other kids.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,,,1,2. a little longer,1,2. a little bad,1,2. less,1,2. worse
+get.napkin,adult,lines,0.645833333333333,0.0,3.0,2.9375,1.0,1.0,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl already got her snack, but she wants get a napkin. She goes to the front of the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl already got her snack, but she wants get a napkin. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",1. same amount of time,1. she'll be fine,1. appropriate,2. worse,"
+
+The kid in the front of the line will have to wait a little longer if this kid cuts.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+The same.",2. a little longer,1. she'll be fine,2. less,3. the same,4,1,-2,3,1,2. a little longer,2,2. a little bad,1,2. less,2,3. the same
+friend,adult,lines,0.208333333333333,1.0,4.0625,2.47916666666667,0.0,0.0,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. A boy wants a snack and wants to stand next to his friend in the front of the line while he waits. He goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. A boy wants a snack and wants to stand next to his friend in the front of the line while he waits. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,3. haven’t waited,2. worse,"
+
+The kid in the front of the line will have to wait a little longer if this kid cuts.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+The same",2. a little longer,1. she'll be fine,2. less,3. the same,4,1,-2,3,1,2. a little longer,2,2. a little bad,2,3. haven’t waited,0,1. much worse
+fight,snack2,lines,0.886363636363636,0.0,4.4375,3.14583333333333,,,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. There are two kids fighting in the classroom. This girl wants the teacher to stop the fight. She goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. There are two kids fighting in the classroom. This girl wants the teacher to stop the fight. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,2. a little bad,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got much worse than the other kids.",1. same amount of time,1. she'll be fine,2. less,1. much worse,1,1,,,1,2. a little longer,2,2. a little bad,0,1. appropriate,1,2. worse
+dropped,adult,lines,0.3125,1.0,3.54166666666667,5.20833333333333,1.0,1.0,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl already got her snack, but her snack fell on the ground. She wants to get a new one. She goes to the front of the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl already got her snack, but her snack fell on the ground. She wants to get a new one. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,3. really bad,1. appropriate,2. worse,"
+
+The kid in the front of the line will have to wait a little longer.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid's snack is much worse than the other kids' snacks.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,-2,-3,2,1. same amount of time,0,1. she'll be fine,1,2. less,2,3. the same
+dislike.flavor,snack2,lines,0.431818181818182,1.0,3.27083333333333,2.0,1.0,1.86363636363636,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy got a flavor he doesn’t like. He would like to ask the teacher for a different bag. He goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy got a flavor he doesn’t like. He would like to ask the teacher for a different bag. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,1. appropriate,3. the same,"
+
+The kid in the front of the line will have to wait a little longer.","
+If she doesn't cut in line, she'll be fine.","
+This person has waited a little less than they should have.","
+This kid's snack is much worse than the other kids'.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,-2,-3,0,3. a lot longer,2,3. really bad,0,1. appropriate,2,3. the same
+bruise,snack2,lines,0.568181818181818,1.0,3.20833333333333,2.14583333333333,1.0,0.136363636363636,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl already waited in line and got her apple. But her apple has a bruise, so she wants to ask for a different one. She goes to the front of the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl already waited in line and got her apple. But her apple has a bruise, so she wants to ask for a different one. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,1. appropriate,2. worse,"
+
+The kid in the front of the line will have to wait a little longer.","
+If she doesn't cut in line, she'll be fine.","
+This person has waited a little less than they should have.","
+This kid's snack is much worse than the other kids' snacks.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,-2,-3,2,1. same amount of time,1,1. she'll be fine,0,1. appropriate,1,2. worse
+bring.water,adult,lines,0.791666666666667,0.0,3.10416666666667,3.0625,1.0,1.0,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This kid already has her snack. She is bringing the teacher a glass of water. She goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This kid already has her snack. She is bringing the teacher a glass of water. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,2. a little bad,1. appropriate,2. worse,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+The same",1. same amount of time,1. she'll be fine,2. less,3. the same,1,1,-2,3,0,3. a lot longer,1,3. really bad,0,1. appropriate,0,1. much worse
+bring.napkins,snack2,lines,0.931818181818182,0.0,2.3125,2.02083333333333,1.0,1.0,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl already got her snack, and is only bringing more napkins to the table. She goes to the front of the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl already got her snack, and is only bringing more napkins to the table. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",1. same amount of time,1. she'll be fine,1. appropriate,2. worse,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+The same",1. same amount of time,1. she'll be fine,2. less,3. the same,1,1,-2,3,1,2. a little longer,0,2. a little bad,0,1. appropriate,0,1. much worse
+bring.napkin,adult,lines,0.770833333333333,0.0,3.0625,2.70833333333333,1.0,1.0,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl is bringing more napkins to the table. She goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl is bringing more napkins to the table. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,1. appropriate,2. worse,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+The same.",1. same amount of time,1. she'll be fine,2. less,3. the same,1,1,-2,3,0,3. a lot longer,2,3. really bad,2,3. haven’t waited,0,1. much worse
+ask.bathroom,snack2,lines,0.909090909090909,0.0,2.9375,4.75,,,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl only wants to ask if she can go to the bathroom. She goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl only wants to ask if she can go to the bathroom. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",1. same amount of time,2. a little bad,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got much worse than the other kids.",1. same amount of time,1. she'll be fine,2. less,1. much worse,1,1,,,0,3. a lot longer,1,3. really bad,2,3. haven’t waited,2,3. the same
+ask.bathroom,adult,lines,0.8125,0.0,3.04166666666667,4.89583333333333,,,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This kid has to ask if she can go to the bathroom. She goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This kid has to ask if she can go to the bathroom. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,2. a little bad,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait a little longer.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got much worse than the other kids.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,,,2,1. same amount of time,2,1. she'll be fine,1,2. less,1,2. worse
+knee,adult,lines,0.75,0.0,4.1875,4.3125,,,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl tripped and skinned her knee. She wants to see if the teacher can get her a bandaid and clean up her cut. She goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl tripped and skinned her knee. She wants to see if the teacher can get her a bandaid and clean up her cut. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,2. a little bad,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait a little longer.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got much worse than the other kids.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,,,1,2. a little longer,0,2. a little bad,1,2. less,0,1. much worse
+knee,snack2,lines,0.909090909090909,0.0,4.58333333333333,4.45833333333333,,,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl tripped and skinned her knee. She only wants to see if the teacher can get her a bandaid and clean up her cut. She goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl tripped and skinned her knee. She only wants to see if the teacher can get her a bandaid and clean up her cut. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,2. a little bad,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got a bandaid and had her cut cleaned up, which is much better than the snack that the other kids got.",1. same amount of time,1. she'll be fine,2. less,None,1,1,,,2,1. same amount of time,0,1. she'll be fine,0,1. appropriate,2,3. the same
+leave.early,adult,lines,0.458333333333333,1.0,3.625,3.0625,0.0,0.0,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This kid has to go home early, but he wants a snack before he goes. He goes to the front of the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This kid has to go home early, but he wants a snack before he goes. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,2. a little bad,3. haven’t waited,2. worse,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+If she doesn't cut in line, she'll be fine.","
+This person has waited a little less than they should have.","
+This kid got a much worse snack than the other kids.",1. same amount of time,1. she'll be fine,2. less,1. much worse,1,1,-2,-3,2,1. same amount of time,2,1. she'll be fine,0,1. appropriate,0,1. much worse
+walk.sick,snack2,lines,0.931818181818182,0.0,4.95833333333333,5.70833333333333,,,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl feels really sick and needs the teacher to walk her to the nurse’s office. She goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl feels really sick and needs the teacher to walk her to the nurse’s office. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,3. really bad,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+She’ll be fine.","
+This person has waited a little less than they should have.","
+This kid got much worse than the other kids.",1. same amount of time,1. she'll be fine,2. less,1. much worse,1,1,,,2,1. same amount of time,0,1. she'll be fine,2,3. haven’t waited,1,2. worse
+note.first,snack2,lines,0.840909090909091,1.0,3.39583333333333,2.6875,3.0,0.0,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl is in the front of the line but hasn’t gotten her snack yet. The teacher asks her to take a note to the office. So, she leaves the line to go to the office. When she comes back, she wants to get a snack. She goes to the front of the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl is in the front of the line but hasn’t gotten her snack yet. The teacher asks her to take a note to the office. So, she leaves the line to go to the office. When she comes back, she wants to get a snack. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,1. appropriate,2. worse,"
+
+The kid in the front of the line will have to wait a little longer if this kid cuts.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got much worse than the other kids.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,-2,-3,0,3. a lot longer,0,3. really bad,0,1. appropriate,0,1. much worse
+note.middle,snack2,lines,0.840909090909091,1.0,3.02083333333333,2.125,0.0,0.0,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. The teacher asked this boy in the middle of the line to take a note to the office. When he comes back, the spot he was in is now first in line. He goes to the front of the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. The teacher asked this boy in the middle of the line to take a note to the office. When he comes back, the spot he was in is now first in line. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,3. haven’t waited,2. worse,"
+
+The kid in the front of the line will have to wait a little longer if this kid cuts.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+The same",2. a little longer,1. she'll be fine,2. less,3. the same,4,1,-2,3,1,2. a little longer,0,2. a little bad,0,1. appropriate,1,2. worse
+one.cookie,snack2,lines,0.727272727272727,1.0,3.27083333333333,2.58333333333333,1.0,-1.29545454545455,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl already waited in line and got her snack, but the bag only had one cookie inside, instead of six. She wants to ask the teacher for a different bag of cookies. She goes to the front of the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl already waited in line and got her snack, but the bag only had one cookie inside, instead of six. She wants to ask the teacher for a different bag of cookies. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,1. appropriate,1. much worse,"
+
+The kid in the front of the line will have to wait a little longer.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid's snack is much worse than the other kids' snacks.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,-2,-3,0,3. a lot longer,2,3. really bad,0,1. appropriate,1,2. worse
+leave.early,snack2,lines,0.704545454545455,1.0,3.33333333333333,2.83333333333333,-3.0,0.0,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy has to go home early, but he wants a snack before he leaves. He goes to the front of the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy has to go home early, but he wants a snack before he leaves. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,3. haven’t waited,2. worse,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+If she doesn't cut in line, she'll be fine.","
+This person has waited a little less than they should have.","
+This kid got a much worse snack than the other kids.",1. same amount of time,1. she'll be fine,2. less,1. much worse,1,1,-2,-3,2,1. same amount of time,1,1. she'll be fine,0,1. appropriate,0,1. much worse
+play,snack2,lines,0.227272727272727,0.0,5.0625,1.29166666666667,,,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy wants to show the teacher the play he and his friends made. He goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy wants to show the teacher the play he and his friends made. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",3. a lot longer,1. she'll be fine,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+If she doesn't cut in line, she'll be fine.","
+This person has waited a little less than they should have.","
+This kid got much worse than the other kids.",1. same amount of time,1. she'll be fine,2. less,1. much worse,1,1,,,0,3. a lot longer,0,3. really bad,2,3. haven’t waited,0,1. much worse
+rotten,snack2,lines,0.840909090909091,1.0,3.3125,3.3125,1.0,-2.06818181818182,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl already waited in line and got her apple, but the apple was rotten. She goes to the front of the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl already waited in line and got her apple, but the apple was rotten. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,2. a little bad,1. appropriate,1. much worse,"
+
+The kid in the front of the line will have to wait a little longer.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid's snack is much worse than the other kids' snacks.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,-2,-3,2,1. same amount of time,0,1. she'll be fine,2,3. haven’t waited,0,1. much worse
+say.hi,adult,lines,0.479166666666667,0.0,3.08333333333333,2.35416666666667,,,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. A kid wants to say hi to the teacher. He goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. A kid wants to say hi to the teacher. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got a much worse snack than the other kids.",1. same amount of time,1. she'll be fine,2. less,1. much worse,1,1,,,1,2. a little longer,1,2. a little bad,2,3. haven’t waited,2,3. the same
+say.hi,snack2,lines,0.431818181818182,0.0,3.08333333333333,1.33333333333333,,,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy only wants to say hi to the teacher. He goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy only wants to say hi to the teacher. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got nothing, so it is much worse.",1. same amount of time,1. she'll be fine,2. less,1. much worse,1,1,,,1,2. a little longer,2,2. a little bad,1,2. less,0,1. much worse
+shoes,adult,lines,0.354166666666667,0.0,4.10416666666667,2.89583333333333,,,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. A boy untied his shoe and doesn’t know how to tie them. He wants the teacher to help tie them for him. He goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. A boy untied his shoe and doesn’t know how to tie them. He wants the teacher to help tie them for him. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait a little longer.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got much worse than the other kids.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,,,2,1. same amount of time,1,1. she'll be fine,2,3. haven’t waited,0,1. much worse
+marker,adult,lines,0.583333333333333,0.0,3.625,2.66666666666667,,,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. A girl colored on her face with marker and only wants to ask the teacher if she can have soap to clean it off. She goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. A girl colored on her face with marker and only wants to ask the teacher if she can have soap to clean it off. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got much worse than the other kids.",1. same amount of time,1. she'll be fine,2. less,1. much worse,1,1,,,0,3. a lot longer,0,3. really bad,2,3. haven’t waited,2,3. the same
+shoes,snack2,lines,0.363636363636364,0.0,4.3125,2.3125,,,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy untied his shoe even though he doesn’t know how to tie them. He only wants the teacher to help tie them for him. He goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy untied his shoe even though he doesn’t know how to tie them. He only wants the teacher to help tie them for him. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got much worse than the other kids.",1. same amount of time,1. she'll be fine,2. less,1. much worse,1,1,,,1,2. a little longer,1,2. a little bad,1,2. less,2,3. the same
+snack,snack2,lines,0.090909090909091,1.0,3.39583333333333,1.39583333333333,-3.0,0.0,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy wants to get a snack like everyone else. He goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy wants to get a snack like everyone else. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,3. haven’t waited,2. worse,"
+
+The kid in the front of the line will have to wait a little longer if this kid cuts.","
+If she doesn't cut in line, she'll be fine.","
+This person has waited a little less than they should have.","
+The same.",2. a little longer,1. she'll be fine,2. less,3. the same,4,1,-2,3,1,2. a little longer,2,2. a little bad,2,3. haven’t waited,2,3. the same
+stand.friend.middle,snack2,lines,0.113636363636364,1.0,3.72916666666667,1.5,-2.0,0.0,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl has not gotten her snack yet, and wants to stand with her friend who is in the middle of the line. She cuts the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl has not gotten her snack yet, and wants to stand with her friend who is in the middle of the line. She cuts the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,2. less,2. worse,"
+
+The kid in the front of the line will have to wait a little longer if this kid cuts.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got a much worse snack than the other kids.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,-2,-3,1,2. a little longer,1,2. a little bad,0,1. appropriate,2,3. the same
+table,adult,lines,0.770833333333333,0.0,4.0,4.75,,,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl was standing on the table which isn’t allowed in the classroom, and she fell and hurt her ankle. She wants to go to the nurse. She goes to the front of the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl was standing on the table which isn’t allowed in the classroom, and she fell and hurt her ankle. She wants to go to the nurse. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,2. a little bad,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got much worse than the other kids.",1. same amount of time,1. she'll be fine,2. less,1. much worse,1,1,,,2,1. same amount of time,2,1. she'll be fine,0,1. appropriate,2,3. the same
+tacks,snack2,lines,0.931818181818182,0.0,4.41666666666667,4.35416666666667,,,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. Someone spilled thumbtacks all over the floor, which means someone might step on them and get hurt. This girl needs the teacher to help clean up the thumbtacks. She goes to the front of the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. Someone spilled thumbtacks all over the floor, which means someone might step on them and get hurt. This girl needs the teacher to help clean up the thumbtacks. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,2. a little bad,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait a little longer.","
+She'll be fine.","
+This person has not waited at all.","
+This kid got nothing.",2. a little longer,1. she'll be fine,3. haven’t waited,None,4,1,,,2,1. same amount of time,0,1. she'll be fine,2,3. haven’t waited,0,1. much worse
+thanks,adult,lines,0.666666666666667,0.0,3.02083333333333,2.45833333333333,1.0,1.0,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. A girl forgot to say thank you for her snack. She only wants to thank the teacher. She goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. A girl forgot to say thank you for her snack. She only wants to thank the teacher. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,1. appropriate,2. worse,"
+
+The kid in the front of the line will have to wait the same amount of time.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+The same.",1. same amount of time,1. she'll be fine,2. less,3. the same,1,1,-2,3,0,3. a lot longer,2,3. really bad,2,3. haven’t waited,0,1. much worse
+threw.snack,adult,lines,0.145833333333333,1.0,3.79166666666667,2.66666666666667,1.0,1.0,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy threw his snack on the ground on purpose. He wants to get a new one. He goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy threw his snack on the ground on purpose. He wants to get a new one. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,1. appropriate,2. worse,"
+
+The kid in the front of the line will have to wait a little longer if this kid cuts.","
+If she doesn't cut in line, she'll be fine.","
+This person has not waited at all.","
+This kid got much worse than the other kids.",2. a little longer,1. she'll be fine,3. haven’t waited,1. much worse,4,1,-3,-3,2,1. same amount of time,1,1. she'll be fine,1,2. less,0,1. much worse
+toys,snack2,lines,0.181818181818182,1.0,3.125,1.5625,-2.0,0.0,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. The girl in the middle leaves the line to go play with toys. When she comes back, the spot she was in is now first in line. She goes to the front of the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. The girl in the middle leaves the line to go play with toys. When she comes back, the spot she was in is now first in line. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,2. less,2. worse,"
+
+The kid in the front of the line will have to wait a little longer if this kid cuts.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+The same",2. a little longer,1. she'll be fine,2. less,3. the same,4,1,-2,3,1,2. a little longer,2,2. a little bad,2,3. haven’t waited,2,3. the same
+vacation,snack2,lines,0.136363636363636,0.0,5.1875,1.47916666666667,,,This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl wants to talk to the teacher about all of the things she did on her vacation. She goes to the front of the line instead of waiting in the back of the line.,"Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This girl wants to talk to the teacher about all of the things she did on her vacation. She goes to the front of the line instead of waiting in the back of the line.
+Question: ",3. a lot longer,1. she'll be fine,3. haven’t waited,3. the same,"
+
+The kid in the front of the line will have to wait a little longer if this kid cuts.","
+She'll be fine.","
+This person has waited a little less than they should have.","
+This kid got much worse than the other kids.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,,,1,2. a little longer,0,2. a little bad,1,2. less,0,1. much worse
+one.crushed,snack2,lines,0.204545454545455,1.0,3.14583333333333,1.45833333333333,1.0,1.27272727272727,"This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy already waited in line and got his snack, but one of his cookies was crushed. So, he has five cookies instead of six. He wants to ask for a different bag of cookies. He goes to the front of the line instead of waiting in the back of the line.","Consider this situation and answer the question that follows:
+Situation: This is a story about a classroom. The kids in the classroom are all waiting in line to get a snack from their teacher. This boy already waited in line and got his snack, but one of his cookies was crushed. So, he has five cookies instead of six. He wants to ask for a different bag of cookies. He goes to the front of the line instead of waiting in the back of the line.
+Question: ",2. a little longer,1. she'll be fine,1. appropriate,3. the same,"
+
+The kid in the front of the line will have to wait a little longer.","
+If she doesn't cut in line, she'll be fine.","
+This person has waited a little less than they should have.","
+This kid's situation is much worse than the other kids.",2. a little longer,1. she'll be fine,2. less,1. much worse,4,1,-2,-3,2,1. same amount of time,2,1. she'll be fine,1,2. less,2,3. the same
