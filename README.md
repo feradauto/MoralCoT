@@ -25,4 +25,21 @@ To generate the predictions for all the models including paraphrases run:
 ./main_models/paraphrases/run_models_ensemble.sh
 ```
 
-MoralCoT uses OPENAI API
+## Dataset
+
+feradauto/MoralExceptQA -- https://huggingface.co/datasets/feradauto/MoralExceptQA
+
+
+## Reference
+When to Make Exceptions: Exploring Language Models as Accounts of Human Moral Judgment -- https://arxiv.org/abs/2210.01478
+
+```
+@misc{jin2022make,
+      title={When to Make Exceptions: Exploring Language Models as Accounts of Human Moral Judgment}, 
+      author={Zhijing Jin and Sydney Levine and Fernando Gonzalez and Ojasv Kamal and Maarten Sap and Mrinmaya Sachan and Rada Mihalcea and Josh Tenenbaum and Bernhard Schölkopf},
+      year={2022},
+      eprint={2210.01478},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
